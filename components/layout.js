@@ -22,6 +22,7 @@ export default function Layout({children, home}) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="stylesheet" href="/css/tomorrow.css" />
       </Head>
       <header className="flex flex-col items-center">
         {home ? (
