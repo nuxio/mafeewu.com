@@ -1,5 +1,6 @@
 module.exports = {
   corePlugins: {
-    preflight: false
-  }
+    preflight: false,
+  },
+  purge: false,
 };

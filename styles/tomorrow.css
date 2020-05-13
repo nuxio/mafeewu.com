@@ -1,6 +1,7 @@
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 
 /* Tomorrow Comment */
+/* purgecss start ignore */
 .hljs-comment,
 .hljs-quote {
   color: #8e908c;
@@ -71,3 +72,4 @@
 .hljs-strong {
   font-weight: bold;
 }
+/* purgecss end ignore */
