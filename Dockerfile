@@ -6,9 +6,9 @@ FROM node:11-alpine AS BUILD_IMAGE
 # 解决 ERROR: http://dl-cdn.alpinelinux.org/alpine/v3.11/main: IO ERROR
 # 解决build速度慢
 RUN sed -i 's/dl-cdn/nl/' /etc/apk/repositories
-RUN sed -i "s/archive.ubuntu./mirrors.aliyun./g" /etc/apt/sources.list
-RUN sed -i "s/deb.debian.org/mirrors.aliyun.com/g" /etc/apt/sources.list
-RUN sed -i "s/security.debian.org/mirrors.aliyun.com\/debian-security/g" /etc/apt/sources.list
+RUN sed -i "s/archive.ubuntu./mirrors.aliyun./g" /etc/apk/repositories
+RUN sed -i "s/deb.debian.org/mirrors.aliyun.com/g" /etc/apk/repositories
+RUN sed -i "s/security.debian.org/mirrors.aliyun.com\/debian-security/g" /etc/apk/repositories
 
 # 安装必要的依赖
 RUN apk update && apk add yarn curl bash && rm -rf /var/cache/apk/*
