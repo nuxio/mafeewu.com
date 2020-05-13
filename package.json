@@ -13,14 +13,14 @@
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "tailwindcss": "^1.4.6"
-  },
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "tailwindcss": "^1.4.6",
     "gray-matter": "^4.0.2",
-    "postcss-preset-env": "^6.7.0",
     "remark": "^12.0.0",
     "remark-highlight.js": "^6.0.0",
     "remark-html": "^11.0.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "postcss-preset-env": "^6.7.0"
   }
 }

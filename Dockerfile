@@ -38,6 +38,9 @@ FROM node:11-alpine
 
 WORKDIR /usr/src/mafee.tech
 
+# pm2
+RUN npm install pm2 -g
+
 # 从 Stage 1 的镜像中复制出生产环境所需的资源
 COPY --from=BUILD_IMAGE /usr/src/mafee.tech/package.json ./package.json
 COPY --from=BUILD_IMAGE /usr/src/mafee.tech/.next ./.next
@@ -48,4 +51,4 @@ COPY --from=BUILD_IMAGE /usr/src/mafee.tech/node_modules ./node_modules
 EXPOSE 3000
 
 # 运行容器后执行的命令
-CMD ["npm", "run", "start"]
+CMD ["pm2-runtime", "start", "npm", "--name", "next", "--", "start"]
