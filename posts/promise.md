@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Promise的实现"
 date: 2019-04-21 18:17:32 +0800
 categories: JavaScript

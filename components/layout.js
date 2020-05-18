@@ -1,17 +1,11 @@
 import Head from "next/head";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import BaiduStat from './baidu-stat';
+
+import utilStyles from "../styles/utils.module.css";
 
 export const name = "Mafee";
 export const siteTitle = "Mafee's Blog";
-
-const BAIDU_STAT_CODE = `var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?9454a0952acfef0fa225f100c4e7b8b0";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();`;
 
 export default function Layout({ children, home }) {
   return (
@@ -30,7 +24,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <script dangerouslySetInnerHTML={{ __html: BAIDU_STAT_CODE }}></script>
+        <BaiduStat />
       </Head>
       <header className="flex flex-col items-center">
         {home ? (

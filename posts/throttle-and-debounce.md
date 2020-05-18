@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "函数节流与函数去抖"
 date: 2018-09-09 16:27:30 +0800
 categories: JavaScript
