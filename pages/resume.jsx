@@ -43,8 +43,8 @@ const Main = () => {
     {
       id: "home",
       name: "个人主页",
-      href: "https://nuxio.github.io/",
-      content: "https://nuxio.github.io/"
+      href: "https://mafee.tech/",
+      content: "https://mafee.tech/"
     },
     {
       id: "github",
