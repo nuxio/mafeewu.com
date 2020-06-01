@@ -1,7 +1,7 @@
 ---
-Title: "Learn Redux"
-Date: 2020-05-27 09:08:51 +0800
-Description: Redux React JavaScript
+title: "Learn Redux"
+date: 2020-05-27 09:08:51 +0800
+categories: Redux React JavaScript
 ---
 
 # Redux

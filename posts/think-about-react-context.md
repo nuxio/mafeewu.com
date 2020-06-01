@@ -1,7 +1,7 @@
 ---
-Title: “React Context文档"
-Date: 2020-05-26 17:28:17 +0800
-Categories: React Context JavaScript
+title: “React Context文档"
+date: 2020-05-26 17:28:17 +0800
+categories: React Context JavaScript
 ---
 
 

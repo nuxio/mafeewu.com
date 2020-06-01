@@ -1,7 +1,7 @@
 ---
-Title: "为什么需要redux-thunk?"
-Date: 2020-06-01 15:20:55 +0800
-Description: Redux Redux-Thunk JavaScript
+title: "为什么需要redux-thunk?"
+date: 2020-06-01 15:20:55 +0800
+categories: Redux Redux-Thunk JavaScript
 ---
 
 # 为什么需要redux-thunk ?
